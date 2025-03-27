@@ -1,0 +1,9 @@
+# Initialize repository
+git init
+echo "# LoanUSA Website" >> README.md
+echo "node_modules/" >> .gitignore
+echo "dist/" >> .gitignore
+
+# Initial commit
+git add .
+git commit -m "chore: initialize repository with base structure"
