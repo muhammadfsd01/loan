@@ -1,0 +1,6 @@
+# Create base files
+mkdir -p assets/{css,js,images} pages/{about,blog,car-loan,mortgage,eligibility,support,verification}
+
+# Commit core structure
+git add .
+git commit -m "feat: create initial directory structure"
