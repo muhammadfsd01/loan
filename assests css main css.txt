@@ -1,0 +1,46 @@
+/* Financial Design System */
+:root {
+    --primary-blue: #1A237E;
+    --accent-green: #4CAF50;
+    --neutral-white: #FFFFFF;
+    --text-dark: #2D3436;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+/* Header Styles */
+.main-header {
+    background: var(--neutral-white);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(26,35,126,0.9), url('images/hero-bg.jpg');
+    color: var(--neutral-white);
+    padding: 8rem 2rem;
+    text-align: center;
+}
+
+.cta-btn {
+    background: var(--accent-green);
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.cta-btn:hover {
+    transform: translateY(-3px);
+}
