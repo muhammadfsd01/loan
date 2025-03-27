@@ -1,0 +1,2 @@
+git add index.html
+git commit -m "feat: add base template with header and hero section"
